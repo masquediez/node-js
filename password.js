@@ -1,3 +1,5 @@
+// =============== Aufgabe 3 =======================
+
 const faker = require('faker');
 
 function generarContrasena(longitud) {
@@ -13,7 +15,7 @@ function generarContrasena(longitud) {
 }
 
 // Ejemplo de uso
-const longitudDeseada = 12; // Puedes cambiar la longitud según tus necesidades
+const longitudDeseada = 12; 
 const contrasenaGenerada = generarContrasena(longitudDeseada);
 
 console.log('Contraseña generada:', contrasenaGenerada);

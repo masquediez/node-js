@@ -1,3 +1,6 @@
+// ========  Aufgabe 1
+
+
 function procesarTexto(cadena) {
   // Eliminar espacios entre palabras
   const textoSinEspacios = cadena.replace(/\s/g,"");
